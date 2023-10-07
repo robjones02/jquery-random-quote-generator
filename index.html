@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="fade-out">
+            <div id="quote-container">
+                <i class="fas fa-quote-left" id="fa-speech-mark"></i>
+                <span id="quote-text" class="text">Quote</span>
+            </div>
+            <div id="author-container">
+                <p id="author-text" class="text">Author</p>
+            </div>
+        </div>
+        <div id="button-container">
+            <div id="social-container">
+                <button><a href="twitter.com/intent/tweet" target="_top"><i class="fab fa-twitter fa-2x"></i></a></button>
+                <button><i class="fab fa-tumblr fa-2x"></i></button>
+
+            </div>
+            <button id="generate-button">New quote</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
